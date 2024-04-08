@@ -1,0 +1,10 @@
+#ignore tracking the following files and directories
+.*
+*.hcl
+*.tfstate*
+terraform.tfvars
+provider.tf 
+k3s_cluster_key*
+
+#track these files and directories
+!.gitignore
